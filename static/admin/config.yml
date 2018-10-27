@@ -12,7 +12,26 @@ collections:
     folder: blog
     create: true
     fields:
+      - { name: template, label: Template, widget: hidden, default: blogTemplate  }
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
+
+  - name: teams
+    label: Teams
+    folder: teams
+    create: true
+    fields:
+      - { name: template, label: Template, widget: hidden, default: teamTemplate  }
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - name: members
+        label: Team Members
+        widget: relation
+        collection: blog
+        searchFields: [title]
+        valueField: title
+        displayFields: [name]
       - { name: body, label: Body, widget: markdown }
