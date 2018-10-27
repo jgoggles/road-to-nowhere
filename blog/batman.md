@@ -6,4 +6,4 @@ title: Batman
 ---
 this is batman!
 
-![](/assets/dc3.jpeg)
+![null](/assets/dc3.jpeg)
