@@ -33,5 +33,5 @@ collections:
         collection: blog
         searchFields: [title]
         valueField: title
-        displayFields: [name]
+        displayFields: [title]
       - { name: body, label: Body, widget: markdown }
