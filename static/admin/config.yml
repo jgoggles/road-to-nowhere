@@ -12,7 +12,7 @@ collections:
     folder: blog
     create: true
     fields:
-      - { name: template, label: Template, widget: hidden, default: blogTemplate  }
+      - { name: templateKey, label: Template, widget: hidden, default: blogTemplate  }
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
@@ -23,7 +23,7 @@ collections:
     folder: teams
     create: true
     fields:
-      - { name: template, label: Template, widget: hidden, default: teamTemplate  }
+      - { name: templateKey, label: Template, widget: hidden, default: teamTemplate  }
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
