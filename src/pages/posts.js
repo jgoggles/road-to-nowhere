@@ -12,6 +12,7 @@ export default ({ data }) => {
           </li>
         ))}
       </ul>
+      {/* comment */}
     </div>
   );
 };
