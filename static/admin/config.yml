@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: jgoggles/road-to-nowhere
+  branch: develop
 
 media_folder: static/assets
 public_folder: assets
