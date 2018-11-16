@@ -1,7 +1,13 @@
+development_overrides:
+  backend:
+    name: github
+    repo: jgoggles/road-to-nowhere
+    branch: develop
+
 backend:
   name: github
   repo: jgoggles/road-to-nowhere
-  branch: develop
+  branch: master
 
 media_folder: static/assets
 public_folder: assets
